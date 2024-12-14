@@ -1,7 +1,7 @@
 import { ref } from "vue";
 import type { Meta, StoryObj } from "@storybook/vue3";
 import "@/style.css";
-import BadgeColourButtons from "@components/inputs/BadgeColourButtons/BadgeColourButtons.vue";
+import BadgeColourButtons from "@components//inputs/BadgeColourButtons/BadgeColourButtons.vue";
 
 const meta: Meta<typeof BadgeColourButtons> = {
   component: BadgeColourButtons,

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
 import "@/style.css";
-import ToggleInput from "../../../components/inputs/ToggleInput/ToggleInput.vue";
+import ToggleInput from "@components/inputs/ToggleInput/ToggleInput.vue";
 
 const meta: Meta<typeof ToggleInput> = {
   component: ToggleInput,

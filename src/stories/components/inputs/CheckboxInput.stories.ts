@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
 import "@/style.css";
-import CheckboxInput from "../../../components/inputs/CheckboxInput/CheckboxInput.vue";
+import CheckboxInput from "@components/inputs/CheckboxInput/CheckboxInput.vue";
 
 const meta: Meta<typeof CheckboxInput> = {
   component: CheckboxInput,
