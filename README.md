@@ -40,7 +40,7 @@ The todo file highlights key parts of the project setup, including configuring V
 
 ## Tech-stack
 
-##### Building with Vue
+#### Building with Vue
 
 I chose Vue for building the main application as it aligns with Greenspark's tech-stack, and is a framework I am highly proficient in.
 
@@ -48,7 +48,7 @@ Vue’s single-file component architecture and its seamless integration with Typ
 
 > Note: I am using Vue 3.5, which allows us to destructure props without loosing reactivity.
 
-##### Typescript
+#### Typescript
 
 I chose TypeScript with Vue because it enhances the development process by adding static typing and improved tooling support.
 
@@ -56,23 +56,23 @@ Its integration with Vue is seamless, particularly when working with single-file
 
 Additionally, TypeScript improves the developer experience by offering auto-completion, better refactoring capabilities, and more robust IDE support, which helps speed up development while reducing potential bugs.
 
-##### Styling with PostCSS
+#### Styling with PostCSS
 
 For styling, I used PostCSS due to its CSS purging capabilities, which are beneficial in production environments. Although Vite handles much of this optimization through esbuild, PostCSS adds another layer of flexibility.
 
-##### Tailwind CSS Challenges
+#### Tailwind CSS Challenges
 
 I originally wanted to add tailwind to this project, but it has problems with storybook, and it just didn't work out in the end unfortunately.
 Tailwind would have brought some useful utility classes, and I would have added the project colours into tailwind and apply them through class names rather than through css using the var() keyword.
 
-##### Pinia for state management
+#### Pinia for state management
 
 I chose Pinia over Vuex, as the Vuex website recommends it, stating:
 `"The official state management library for Vue has changed to Pinia."`
 
 I personally really enjoy using it and have used it professionally as well.
 
-##### Vitest, test-utils, and happy-dom
+#### Vitest, test-utils, and happy-dom
 
 - Vitest: A native Vite test runner than enables unit testing with similar syntax to Jest.
 
@@ -81,7 +81,7 @@ I personally really enjoy using it and have used it professionally as well.
 - happy-dom: It uses the Google v8 engine to work as a browser without the user interface, which is useful when testing the DOM in Vitest.
   It's sponsored by sentry.io and Microsoft, which hopefully means maintenance longevity.
 
-##### Storybook
+#### Storybook
 
 It's the industry standard for visually isolating and testing components, and it's auto docs feature is particularly useful with Vue 3.
 
