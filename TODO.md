@@ -21,11 +21,9 @@
 
 ###### Inputs:
 
-- [ ] checkbox input
-  - [ ] tests
-  - [ ] story
-- [ ] toggle input
-- [ ] base checkbox input (for toggle and checkbox)
+- [x] checkbox input
+- [x] toggle input
+- [x] base checkbox input (for toggle and checkbox)
 - [ ] widget colour selector (badges?)
 
 ###### Visuals:
