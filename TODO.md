@@ -14,7 +14,6 @@
 - [x] Extract styles from Figma and add variables / classes into CSS
 - [x] Identify input components
 - [x] Identify purely visual components
-- [ ] Create empty files and folders with potential component / feature names based on figma designs
 
 #### Project breakdown:
 
@@ -23,6 +22,8 @@
 ###### Inputs:
 
 - [ ] checkbox input
+  - [ ] tests
+  - [ ] story
 - [ ] toggle input
 - [ ] base checkbox input (for toggle and checkbox)
 - [ ] widget colour selector (badges?)

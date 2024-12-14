@@ -1,17 +1,22 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
+import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-	plugins: [vue()],
-	resolve: {
-		alias: {
-			"@": new URL("./src/", import.meta.url).pathname,
-			"@assets": new URL("./src/assets/", import.meta.url).pathname,
-			"@components": new URL("./src/components/", import.meta.url).pathname,
-			"@features": new URL("./src/features/", import.meta.url).pathname,
-			"@store": new URL("./src/store/", import.meta.url).pathname,
-			"@services": new URL("./src/services/", import.meta.url).pathname,
-		},
-	},
+  plugins: [vue()],
+  test: {
+    environment: "happy-dom",
+    globals: true,
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+      "@assets": path.resolve(__dirname, "./src/assets"),
+      "@components": path.resolve(__dirname, "./src/components"),
+      "@features": path.resolve(__dirname, "./src/features"),
+      "@store": path.resolve(__dirname, "./src/store"),
+      "@services": path.resolve(__dirname, "./src/services"),
+    },
+  },
 });
