@@ -4,6 +4,12 @@
 
 Please clone this repository and run it locally on your own machine, and then run the following commands using your IDE or terminal.
 
+###### To navigate to the project via a terminal:
+
+```bash
+cd greenspark-technical-test
+```
+
 ###### Installing the project:
 
 ```bash
