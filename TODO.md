@@ -24,13 +24,13 @@
 - [x] checkbox input
 - [x] toggle input
 - [x] base checkbox input (for toggle and checkbox)
-- [ ] widget colour selector (badges?)
+- [x] widget colour selector (badges?)
 
 ###### Visuals:
 
+- [x] widget input labels
 - [ ] widget logo component
 - [ ] tooltip component
-- [ ] widget input labels
 - [ ] panel component
 
 ##### Features:
