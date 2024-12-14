@@ -2,7 +2,7 @@
 // The id of the product widget, incremental integer
 export type WidgetId = number;
 // The type of impact
-export type WidgetType = "carbon" | "plastic bottles" | "trees";
+export type WidgetType = "carbon" | "plastic" | "trees";
 // The amount of impact
 export type WidgetAmount = number;
 // The action which corresponds to an impact type

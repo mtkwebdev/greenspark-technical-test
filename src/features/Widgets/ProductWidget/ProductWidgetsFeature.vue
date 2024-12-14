@@ -49,9 +49,11 @@ const store = useProductWidgetsStore();
 .product-widgets-feature {
   display: flex;
   gap: 1rem;
+  margin-bottom: 6rem;
   @media only screen and (max-width: 480px) {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0rem;
   }
 }
 </style>

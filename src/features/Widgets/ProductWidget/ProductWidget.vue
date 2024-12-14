@@ -4,7 +4,7 @@
       <LogoSVG :fill="colourSwitcher" />
       <div class="widget-text">
         <h6>This product {{ action }}</h6>
-        <h5>{{ amount }}&NonBreakingSpace;{{ type }}</h5>
+        <h5>{{ dynamicAmountAndTypeText }}</h5>
       </div>
     </div>
     <div>
@@ -49,6 +49,17 @@ const isLightVariant = computed(() => {
 
 const colourSwitcher = computed(() => {
   return isLightVariant.value ? "green" : "white";
+});
+
+const dynamicAmountAndTypeText = computed(() => {
+  if (type === "plastic") {
+    return `${amount} ${type} bottles`;
+  }
+  if (type === "carbon") {
+    return `${amount}kgs of ${type}`;
+  } else {
+    return `${amount} ${type}`;
+  }
 });
 </script>
 

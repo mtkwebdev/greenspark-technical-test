@@ -73,5 +73,6 @@ const setWidgetActive = (isActive: WidgetActive) => {
   flex-direction: column;
   position: relative;
   gap: 0.625rem;
+  margin-bottom: 1rem;
 }
 </style>

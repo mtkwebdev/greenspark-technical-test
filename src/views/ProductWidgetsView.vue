@@ -27,7 +27,7 @@ populateWidgetTooltipContent();
   width: max-content;
   hr {
     color: var(--bg-grey);
-    margin: 0.25rem 0rem 1rem 0rem;
+    margin: 0.5rem 0rem 1.2rem 0rem;
   }
 }
 </style>
