@@ -12,6 +12,34 @@
 #### Project breakdown:
 
 - [x] Extract styles from Figma and add variables / classes into CSS
-- [ ] Identify input components
-- [ ] Identify purely visual components
+- [x] Identify input components
+- [x] Identify purely visual components
 - [ ] Create empty files and folders with potential component / feature names based on figma designs
+
+#### Project breakdown:
+
+##### Components:
+
+###### Inputs:
+
+- [ ] checkbox input
+- [ ] toggle input
+- [ ] base checkbox input (for toggle and checkbox)
+- [ ] widget colour selector (badges?)
+
+###### Visuals:
+
+- [ ] widget logo component
+- [ ] tooltip component
+- [ ] widget input labels
+- [ ] panel component
+
+##### Features:
+
+> Features are like components, but are more specific to their context in the UI, and are a composite of components.
+
+###### Product Widgets:
+
+- [ ] "product widget" - one widget with the logo, amount, action, and type.
+- [ ] "product widget settings" - one set of settings to configure widget attributes
+- [ ] widgets feature - multiple widgets, with product widget and widget settings combined
