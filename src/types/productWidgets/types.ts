@@ -43,3 +43,12 @@ export interface State {
   tooltipLink: TooltipLink;
   tooltipText: TooltipText;
 }
+
+export interface ProductWidgetSettingsProps {
+  id: WidgetId;
+  linked: WidgetLinked;
+  selectedColor: WidgetSelectedColor;
+  active: WidgetActive;
+  tooltipLink: TooltipLink;
+  tooltipText: TooltipText;
+}
