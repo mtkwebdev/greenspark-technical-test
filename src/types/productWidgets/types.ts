@@ -18,3 +18,28 @@ export type WidgetSelectedColor =
   | "blue"
   | "green"
   | "beige";
+
+type WidgetData = {
+  id: WidgetId;
+  type: WidgetType;
+  amount: WidgetAmount;
+  action: WidgetAction;
+  active: WidgetActive;
+  linked: WidgetLinked;
+  selectedColor: WidgetSelectedColor;
+};
+
+export type WidgetList = Array<WidgetData>;
+
+export type TooltipLink = {
+  href: string;
+  text: string;
+};
+
+export type TooltipText = string;
+
+export interface State {
+  widgetList: WidgetList;
+  tooltipLink: TooltipLink;
+  tooltipText: TooltipText;
+}
