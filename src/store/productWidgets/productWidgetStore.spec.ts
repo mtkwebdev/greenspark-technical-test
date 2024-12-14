@@ -1,7 +1,6 @@
 import { setActivePinia, createPinia } from "pinia";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { useProductWidgetsStore } from "./productWidgetsStore";
-import * as productWidgetServices from "@/services/productWidgetService/productWidgetServices";
 import { WidgetList } from "@/types/productWidgets/types";
 // Mock data for testing
 const mockWidgetList: WidgetList = [
