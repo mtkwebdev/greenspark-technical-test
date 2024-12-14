@@ -8,7 +8,10 @@ export default defineConfig({
   test: {
     environment: "happy-dom",
     globals: true,
-    include: ["**/components/**/*.{test,spec}.ts"],
+    include: [
+      "**/components/**/*.{test,spec}.ts",
+      "**/store/**/*.{test,spec}.ts",
+    ],
   },
   resolve: {
     alias: {
