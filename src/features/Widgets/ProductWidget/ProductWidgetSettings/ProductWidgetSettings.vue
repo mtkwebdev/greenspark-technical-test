@@ -71,7 +71,6 @@ const setWidgetActive = (isActive: WidgetActive) => {
 .widget-settings-container {
   display: flex;
   flex-direction: column;
-  position: relative;
   gap: 0.625rem;
   margin-bottom: 1rem;
 }

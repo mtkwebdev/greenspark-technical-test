@@ -63,7 +63,6 @@ const setWidgetLinked = (isLinked: WidgetLinked) => {
 <style lang="postcss" scoped>
 .widget-linked-setting {
   position: relative;
-  z-index: var(--z-index-tooltip);
   align-self: center;
 }
 </style>
